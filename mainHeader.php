@@ -14,9 +14,9 @@
 <header >
     <div class="container">
         <div class="logo backhome">
-          <a class="backhome"href="index.php">Personal Work Tracker</a>
+          <a class="backhome"href="index.php">WolfAngle</a>
         </div>
-        <div class="logo">
+        <div class="logo">  
 
         <?php
           if (isset($_SESSION['user_id'])){

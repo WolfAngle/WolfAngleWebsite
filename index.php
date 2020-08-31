@@ -24,11 +24,11 @@ include 'mainHeader.php';
 
             echo '<section class="indexText loginform">
             <div class="mainText">
-                    <h2>Welcome to the <span style="color:#24c175">Personal Work Tracker</span> for USDF.<br><br>If you are a new member, please register by 
+                    <h2>Welcome to the <span style="color:#24c175">WolfAngle</span> official website.<br><br>If you are new, register to receive news about our company, by 
                     <br>clicking the button below!
                     <form action="signup.php">
                     <button class="registerbuttom" >Register</button></form><br><br>
-                    Need support? Contact any Staff on our <a class="logo discord" href="https://discord.gg/hZ4K88G">Discord</button></a>.<h1>
+                    Need support? Contact any Staff on our <a class="logo discord" href="">Discord</button></a>.<h1>
                     </h2>
                 </div>
             </section>';
