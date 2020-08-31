@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css?v=<?php echo time(); ?>">
@@ -13,20 +12,13 @@
           <a class="backhome"href="index.php">WolfAngle</a>
         </div>
         <div class="logo">  
-
-        <?php
-          if (isset($_SESSION['user_id'])){
-            echo '<a class="loginTrue" href="includes/logout.inc.php">Logout</a>
-            ';
-          }
-          else {
-            echo '<a class="loginLogin" href="login.php">Login</a>
+            <a class="loginTrue" href="includes/logout.inc.php">Logout</a>
+            
+            <a class="loginLogin" href="login.php">Login</a>
             <a class="discordLink" href="">Admin</a>
-            <a class="discordLink" target="_blank" href="https://discord.gg/hZ4K88G">Discord</a>';
-          }
-        ?>
-
+            <a class="discordLink" target="_blank" href="https://discord.gg/hZ4K88G">Discord</a>'
+          
 
         </div>
     </div>
-</header>
+</header
