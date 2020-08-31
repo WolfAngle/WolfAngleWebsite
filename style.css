@@ -1,0 +1,295 @@
+body {
+  background-image: url('images/lel.png');
+  color: #aeb9c3;
+  line-height: 2;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-family: poppins,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  position: relative;
+    height: 85px;
+  background: #171922;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: .5em 0;
+    z-index: 99;
+}
+footer {
+  position: relative;
+    height: 40px;
+  background: #171922;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: .5em 0;
+    z-index: 99;
+}
+
+header .container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+}
+
+
+header .logo {
+  font-size: 2.3em;
+  font-family: montserrat,sans-serif;
+}
+header .logo {
+  white-space: nowrap;
+  float: left;
+  width: 33.33333333%;
+  min-height: 1px;
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 10px;
+}
+
+.usdfLogo {
+position: absolute  ;
+left: 20em;
+
+}
+
+
+.signup {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  width: 20rem;
+  
+}
+.signupbuttom {
+  border-color: transparent;
+  border-radius: 2em;
+  color: white;
+  background: #1875de ;
+  white-space: nowrap;
+  font-size: 20px;
+  margin-top: .5em;
+  margin-left: 0rem;
+  padding: 0.3rem 8.5rem;
+}
+.loginbuttom {
+  border-color: transparent;
+  border-radius: 2em;
+  color: white;
+  background: #1875de ;
+  white-space: nowrap;
+  font-size: 20px;
+  margin-top: .5em;
+  margin-left: .6rem;
+  padding: 0.5rem 8.5rem;
+}
+.registerbuttom {
+  border-color: transparent;
+  border-radius: 2em;
+  color: white;
+  background: #1875de ;
+  white-space: nowrap;
+  font-size: 20px;
+  margin-top: .6em;
+  margin-left: 0rem;
+  padding: 0.5rem 2rem;
+}
+.signupbuttom:hover{
+  background: #333;
+  color: #24c175;
+}
+.loginbuttom:hover{
+  background: #333;
+  color: #24c175;
+}
+.registerbuttom:hover{
+  background: #333;
+  color: #24c175;
+}
+a{
+text-decoration: none!important;
+}
+header .logo a{
+  color: #f7f7f7;
+}
+.loginform {
+  margin-top: 9rem;
+}
+.mainText{
+  font-size: 20px;
+  color: white;
+  margin-left: 30rem;
+  margin-right: 30rem;
+  text-align: center;
+  border: 2px solid #171922;
+  border-radius: 30px;
+  background-color: #171922;
+}
+.indexText{
+  margin-top: 15rem !important;
+}
+
+
+
+.form-control {
+  font-size: 1.1em;
+  height: 40px;
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  -webkit-transition: all border-color ease-in-out .15s,box-shadow ease-in-out .15s ease-out;
+  -moz-transition: all border-color ease-in-out .15s,box-shadow ease-in-out .15s ease-out;
+  -o-transition: all border-color ease-in-out .15s,box-shadow ease-in-out .15s ease-out;
+  transition: all border-color ease-in-out .15s,box-shadow ease-in-out .15s ease-out;
+}
+
+.errorMessage{
+  margin-top: 5rem;
+  margin-right: 40rem;
+  margin-left: 30rem;
+  border: 2px solid;
+  border-radius: 20px;
+  border-color: #103004;
+  background-color: #24c175;
+  color:#1875de;
+  font-size: 20px;
+  padding: .5rem 5rem .5rem 5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+.successMessage{
+  margin-top: 5rem;
+  margin-right: 40rem;
+  margin-left: 30rem;
+  border: 2px solid;
+  border-radius: 20px;
+  border-color: #103004;
+  background-color: #24c175;
+  color:#1875de;
+  font-size: 20px;
+  padding: .5rem 5rem .5rem 5rem;
+  text-align: center;
+  font-weight: bold;
+}
+.LoginMessage{
+  margin-top: 0rem;
+  position: relative;
+  top: 8rem;
+  margin-right: 43rem;
+  margin-left: 41rem;
+  border: 2px solid;
+  border-radius: 20px;
+  border-color: #103004;
+  background-color: #24c175;
+  color:#1875de;
+  font-size: 20px;
+  padding: .5rem 2rem .5rem 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+.discordLink {
+margin-left: 5rem;
+}
+.loginCheck{
+  margin-left: 40rem;
+}
+.loginTrue{
+  margin-left: 55rem;
+}
+.loginLogin{
+  margin-left: 36rem;
+}
+.discordLink:hover{
+  color: #24c175;
+}
+.adminLogin:hover{
+  color: #24c175;
+}
+.backhome:hover{
+  color: #24c175;
+}
+.loginLogin:hover{
+  color: #24c175;
+}
+.loginTrue:hover{
+  color: #24c175;
+}
+.loginCheck:hover{
+  color: #24c175;
+}
+.discord{
+  color: #99ccff;
+}
+.discord:hover{
+  color: #24c175;
+}
+
+.message{
+  position: relative;
+  margin-left: 10rem;
+  font-weight: bold;
+}
+
+.resumbmit {
+  margin: 2rem 0rem 0rem 38rem; 
+}
+
+
+footer .leftText{
+  margin-left: 2rem;
+  margin-right: 0rem;
+}
+footer .midText{
+  margin-left: 44rem;
+  margin-right: auto;
+}
+
+
+/* Animations */
+
+#hideMe {
+  -webkit-animation: cssAnimation 4s forwards; 
+  animation: cssAnimation 4s forwards;
+}
+@keyframes cssAnimation {
+  0%   {opacity: 1; }
+  80%  {opacity: 1; top: 8rem}
+  99% {opacity:0; top: 7rem;width: auto; height: auto;}
+  100% {opacity: 0; position: relative;width:0; height:0}
+}
+@-webkit-keyframes cssAnimation {
+  0%   {opacity: 1; }
+  80%  {opacity: 1; top: 8rem}
+  99% {opacity: 0; top: 7rem; width: auto; height: auto;}
+  100% {opacity: 0; width:0; height:0;}
+}
